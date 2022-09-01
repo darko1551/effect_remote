@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "ImageProcessor/2.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/ImageProcessor.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {}
+        }
+      },
+      "Melanchall.DryWetMidi/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {}
+        },
+        "build": {
+          "build/Melanchall.DryWetMidi.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImageProcessor/2.9.1": {
+      "sha512": "QzYXsKGBdgAcxneFucxPcsMnCFr3VwZKZ09cPwVH6TzcgA2JWskfDPr3u6IyDsHRgX+Ju1rgQr+I2I5/wRbcog==",
+      "type": "package",
+      "path": "imageprocessor/2.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "imageprocessor.2.9.1.nupkg.sha512",
+        "imageprocessor.nuspec",
+        "lib/net452/ImageProcessor.dll",
+        "lib/net452/ImageProcessor.xml"
+      ]
+    },
+    "Melanchall.DryWetMidi/6.0.1": {
+      "sha512": "BcZSMCXux3I88SUVWTjYAUsDX4tchGhrfi1imkPmjHc+lR2T6OULhN5rlJrbyYldQUKwOdf+oK/KPTcBMCWmAA==",
+      "type": "package",
+      "path": "melanchall.drywetmidi/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Melanchall.DryWetMidi.targets",
+        "build/Melanchall_DryWetMidi_Native32.dll",
+        "build/Melanchall_DryWetMidi_Native64.dll",
+        "build/Melanchall_DryWetMidi_Native64.dylib",
+        "icon.png",
+        "lib/net45/Melanchall.DryWetMidi.dll",
+        "lib/net45/Melanchall.DryWetMidi.xml",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.dll",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.xml",
+        "melanchall.drywetmidi.6.0.1.nupkg.sha512",
+        "melanchall.drywetmidi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "ImageProcessor >= 2.9.1",
+      "Melanchall.DryWetMidi >= 6.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Darko\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C#\\EffectRemote\\EffectRemote\\EffectRemote.csproj",
+      "projectName": "EffectRemote",
+      "projectPath": "D:\\C#\\EffectRemote\\EffectRemote\\EffectRemote.csproj",
+      "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\EffectRemote\\EffectRemote\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "ImageProcessor": {
+            "target": "Package",
+            "version": "[2.9.1, )"
+          },
+          "Melanchall.DryWetMidi": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ImageProcessor 2.9.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ImageProcessor",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
